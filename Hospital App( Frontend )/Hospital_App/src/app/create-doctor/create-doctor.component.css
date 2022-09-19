@@ -1,0 +1,43 @@
+.form-group{
+  font-weight: bold;
+  font-size: large;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: rgba(28, 190, 28, 0.589);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgba(28, 190, 28, 0.589);
+}
+
+div {
+  background-color: rgba(28, 190, 28, 0.411);
+  padding: 10px;
+}
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid red;
+  }
+
+  .cont{
+    border-radius: 10px;
+    margin-top: 15%;
+  }

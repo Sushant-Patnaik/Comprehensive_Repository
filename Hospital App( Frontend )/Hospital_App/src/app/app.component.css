@@ -1,0 +1,24 @@
+.nav-option
+{
+    font-size: 20px;
+}
+
+.activate
+{
+    padding: 0 10px 0 10px;
+    border-radius: 10px;
+}
+
+.activate:hover
+{
+    background-color:blue;   
+}
+.text-center
+{
+    background-color: blueviolet;
+}
+.nav-item{
+    background-color:chartreuse;
+    border-radius: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

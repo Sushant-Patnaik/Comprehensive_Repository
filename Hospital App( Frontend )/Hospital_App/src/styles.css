@@ -1,0 +1,9 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+body
+{
+    background-color: #d78d7370;
+    background:url(C:\Users\mindc1july159\Desktop\Comprehensive\Frontend-main\hospital-management\hospital.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}

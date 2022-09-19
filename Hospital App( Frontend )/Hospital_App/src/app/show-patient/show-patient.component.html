@@ -1,0 +1,55 @@
+<div className="App">
+    <section id="home" class="hero-section">
+      <div class="hero-shape">
+        <img src="assets/img/hero/hero-shape.svg" alt="" class="shape" />
+      </div>
+      <div class="container">
+       
+                <h4 style="text-align: center"> Patient Details</h4>
+
+                
+                <div class="table-wrapper">
+                  <input  type="text" class="findbox" placeholder="Enter Patient-Id" [(ngModel)]="patientId">&nbsp;
+                <button type="submit" class = "btn btn-success" (click)="getPatientDetails(patientId)">Submit</button><br><br>
+                  <table class="fl-table" >
+                    <thead>
+                      <tr>
+                        <th>Patient Id</th>
+                        <th>Patient Name</th>
+                        <th>Date of Visit</th>
+                        <th>Visited Doctor</th>
+                        <th>Precription</th>
+                        <th>Age</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr *ngIf="patients; else elseblock">
+                        <td>{{ patients.id}}</td>
+                        <td>{{ patients.name }}</td>
+                        <td>{{ patients.dateOfVisit }}</td>
+                        <td>{{ patients.visitedDoctor }}</td>
+                        <td>{{ patients.prescription }}</td>
+                        <td>{{ patients.age }}</td>
+                       
+                      </tr>
+                      <ng-template #elseblock>
+                        <tr>
+                          <td colspan="6">{{errorMessage}}</td>
+                        </tr>
+                      </ng-template>
+                    </tbody>
+  
+                    <tbody></tbody>
+                  </table><br><br>
+                  <button type="submit" class = "btn btn-success"(click)="back()">Back</button>
+                </div>
+                
+              </div>
+              
+  
+         
+    </section>
+  </div>
+  
+  
+  

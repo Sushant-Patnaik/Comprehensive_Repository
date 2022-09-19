@@ -1,0 +1,32 @@
+<h1 class="text-center"> {{title}} </h1>
+<nav class="navbar navbar-expand-sm bg-primary justify-content-center">
+  <ul class = "navbar-nav nav-option">
+    <li class = "nav-item">
+      <a routerLink="" routerLinkActive="activate" class="nav-link" >Home</a>
+  </li>&nbsp;&nbsp;
+      <li class = "nav-item">
+          <a routerLink="create-patient" routerLinkActive="activate" class="nav-link" >New Patient</a>
+      </li>&nbsp;&nbsp;
+      <li class = "nav-item">
+          <a routerLink="create-doctor" routerLinkActive="activate" class="nav-link" >New Doctor</a>
+      </li>&nbsp;&nbsp;
+      <li class = "nav-item">
+        <a routerLink="show-doctor" routerLinkActive="activate" class="nav-link" >Show Doctor Information</a>
+    </li>&nbsp;&nbsp;
+    <li class = "nav-item">
+        <a routerLink="show-patient" routerLinkActive="activate" class="nav-link" >Show Patient Information</a>
+    </li>
+    
+  </ul>
+</nav>
+
+
+<div class = "container">
+  <router-outlet></router-outlet>
+</div>
+
+<footer class = "footer">
+  <div class = "container">
+      
+  </div>
+</footer>

@@ -1,0 +1,18 @@
+.hed{
+    color: rgb(17, 34, 107);
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bold;
+}
+.dept{
+    color: rgb(223, 102, 47);
+    font-size: x-large;
+    background-color: rgba(202, 202, 115, 0.397);
+    background-size: 10px 20px;
+    
+}
+th{
+    color: rgb(16, 37, 224);
+    font-weight: bold;
+    font-style: initial;
+}
